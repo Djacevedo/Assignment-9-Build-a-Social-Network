@@ -1,0 +1,10 @@
+The main classes wihin my code are the Person and SocialNetwork classes. 
+The Person class represents an indavidual in the network allowing others 
+to be connected though a list of friends. The only downside is they need 
+to first be within the network before they can be added to a list of 
+friends. The SocialNetwork Manages the whole structure. It stores everyone 
+in a dictionary of people where a persons name is the key showing who he/she
+is connected to. This allows O(1) lookup times when connecting and adding 
+people. The `add_friendship()` method creates mutual connections, ensuring 
+that friendships are bidirectional. The `print_network()` function outputs
+all users and their friends for visualization.
